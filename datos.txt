@@ -1,0 +1,3 @@
+Nombre: carlos , Correo: carlos@gmail.com, area: 1, sexo: M, descripcion: asd, boletin: 1, rol: 1
+Nombre: asd, Correo: a@culo.com, area: 2, sexo: M, descripcion: asd, boletin: 1, rol: 1
+Nombre: camacho, Correo: cama@gmail.com, area: 1, sexo: M, descripcion: asd, boletin: 0, rol: 1

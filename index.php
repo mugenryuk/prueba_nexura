@@ -18,7 +18,7 @@
             <div class="alert alert-primary" role="alert">
                Los campos son asteriscos (*) son obligatorios
             </div>
-            <form action="" method="" onsubmit="return validacion()">
+            <form action="" method="" onsubmit="validacion()" id="formdata">
                <div class="form-group row">
                   <label for="nombre_completo" class="col-md-2 col-form-label">Nombre completo *</label>
                   <div class="col-md-8">
@@ -95,9 +95,12 @@
                         ?>
                   </div>
                </div>
-<div id="respuesta">
+
+
+               <div id="respuesta">
 
 </div>
+
                <div class="col-md-6 offset-md-2">
                   <button type="submit" id="btnEnviar" class="btn btn-primary">
                   Guardar
@@ -111,6 +114,7 @@
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
       <script src="validador.js"></script>
    </body>
 </html>
